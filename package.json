@@ -1,5 +1,5 @@
 {
-  "name": "music-bot-example",
+  "name": "potato-bot",
   "version": "1.1.0",
   "description": "A dedicated music bot example project for Zhycorp Development made by iCrawl",
   "main": "index.js",
@@ -17,7 +17,7 @@
     "Npm",
     "Zhycorp"
   ],
-  "author": "iCrawl",
+  "author": "gsk gamer",
   "license": "by-nc-nd/4.0",
   "bugs": {
     "url": "https://github.com/zhycorp/music-bot-example/issues"
@@ -34,7 +34,7 @@
     "node-opus": "^0.3.3",
     "opusscript": "0.0.7",
     "simple-youtube-api": "^5.2.1",
-    "ytdl-core": "^3.2.1"
+    "ytdl-core": "^3.2.2"
   },
   "optionalDependencies": {
     "@discordjs/uws": "^11.149.1"
