@@ -52,7 +52,7 @@ __**Command list**__
 > \`nowplaying\`, \`queue\`, \`volume\``
       )
       .setFooter(
-        "©️ 2020 POTATOFY",
+        "©️ 2021 IAMPOTATO",
         "https://cdn.discordapp.com/avatars/746308075085889646/1661fc454a2a95e298d3bba2c6dde8df.png?size=256"
       );
     message.channel.send(helpembed);
@@ -318,10 +318,9 @@ async function handleVideo(video, message, voiceChannel, playlist = false) {
 function play(guild, song) {
   const serverQueue = queue.get(guild.id);
 
-  if (!song) {
-    serverQueue.voiceChannel.leave();
-    return queue.delete(guild.id);
-  }
+  if(!song) {
+  return queue.delete(guild.id)
+}
 
   const dispatcher = serverQueue.connection
     .play(ytdl(song.url))
